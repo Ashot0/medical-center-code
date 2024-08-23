@@ -1,0 +1,91 @@
+@media (min-width: 1024px) {
+	.header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 30px;
+		&__logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 7.09px;
+		}
+
+		&__logo-img {
+			width: 28.35px;
+			height: 28px;
+		}
+
+		&__logo-text {
+			font-size: 12px;
+			text-transform: uppercase;
+			font-weight: 700;
+			color: var(--color-green);
+		}
+
+		&__user {
+			font-size: 16px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 15px;
+		}
+
+		&__user-text {
+			line-height: 140%;
+			&_strong {
+				font-weight: 600;
+			}
+		}
+
+		&__user-avatar {
+			width: 40px;
+			height: 40px;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	.header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 15px;
+		&__logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 7.09px;
+		}
+
+		&__logo-img {
+			width: 28.35px;
+			height: 28px;
+		}
+
+		&__logo-text {
+			text-transform: uppercase;
+			font-weight: 700;
+			color: var(--color-green);
+		}
+
+		&__user {
+			font-size: 14px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 15px;
+		}
+
+		&__user-text {
+			line-height: 140%;
+			&_strong {
+				font-weight: 600;
+			}
+		}
+
+		&__user-avatar {
+			width: 40px;
+			height: 40px;
+		}
+	}
+}
